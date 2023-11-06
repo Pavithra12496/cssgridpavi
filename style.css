@@ -1,0 +1,108 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+    background-color: aqua;
+    font-size: 30px;
+    text-align: center;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+    background-color: black;
+}
+.container >div
+{
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    cursor: pointer;  
+}
+.container >div:hover
+{
+    opacity: 0.8;
+    transform: scale(0.95);
+
+}
+/* .container > div:nth-of-type(1)
+{
+    grid-column: 1/3;
+
+} */
+
+.bg-1
+{
+    background-image: url(https://www.theindia.co.in/blog/wp-content/uploads/2021/12/Taj-Mahal-min.jpg);
+}
+
+.bg-2
+{
+    background-image: url(https://www.transindiatravels.com/wp-content/uploads/mysore-palace7.jpg);
+}
+.bg-3
+{
+    background-image: url(https://www.transindiatravels.com/wp-content/uploads/victoria-memorial-kolkata.jpg);
+}
+.bg-4
+{
+    background-image: url(https://www.theindia.co.in/blog/wp-content/uploads/2022/09/Meenakshi-Amman-Temple-Madurai.jpg);
+    
+}
+.bg-5
+{
+    background-image: url(https://www.transindiatravels.com/wp-content/uploads/charminar4.jpg);
+}
+.bg-6
+{
+    background-image: url(https://www.transindiatravels.com/wp-content/uploads/ajanta-ellora-caves-maharashtra.jpg);
+}
+.bg-7
+{
+    background-image: url(https://www.transindiatravels.com/wp-content/uploads/khajuraho-monuments-madhya-pradesh.jpg);
+}
+.bg-8
+{
+    background-image: url(https://www.theindia.co.in/blog/wp-content/uploads/2021/12/Red-Fort-min.jpg);
+}
+.bg-9
+{
+    background-image: url(https://www.transindiatravels.com/wp-content/uploads/konark-sun-temple.jpg);
+}
+.bg-10
+{
+    background-image: url(https://www.theindia.co.in/blog/wp-content/uploads/2021/12/India-Gate-min.jpg);
+}
+.bg-11
+{
+    background-image: url(https://www.theindia.co.in/blog/wp-content/uploads/2021/12/Golden-temple-min.jpg);
+}
+.bg-12
+{
+    background-image: url(https://www.theindia.co.in/blog/wp-content/uploads/2021/12/Amber-fort-min.jpg);
+}
+.content p
+{
+    opacity: 0;
+    transition: 0.6s;
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+
+}
+.content p:hover
+{
+    opacity: 1;
+}
+footer
+{
+    background-color:aqua;
+    font-size: 30px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
